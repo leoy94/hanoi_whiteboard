@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Babel</title>
+  <meta name="description" content="Babel">
+  <meta name="author" content="Leo Yousif">
+
+  <link rel="stylesheet" href="Babel.css">
+  
+
+</head>
+
+<body onload="SetInitial();">
+<script src="Hanoi_main.js"></script>
+<script src="Hanoi.js"></script>
+
+<div class="header">
+    <nav class="nav">
+      <image src="l2.png" class="nav-title"></image>
+      <div class="title">Hanoi</div>
+
+      <div class="menu-items">
+        
+        <!-- <div class="Resume">Resume</div>
+        <div class="Projects">Portfolio</div> -->
+      </div>
+      
+    </nav>
+</div>
+
+
+<div class="inputs">
+    <div class="input" >
+        <div class="label">Please enter the amount of blocks</div>
+        <div class="value">
+            <input id="input-1" type="blocknum" value="" maxlength="2">
+            <button class="button" onClick="Reset();">Refresh</button>
+        </div> 
+    </div>
+    <div class="input" >  
+      <div class="showsolution"> 
+        <button class="button" onClick="showsolution();">Solve</button>
+      </div>
+    </div>
+    <!-- <div class="input" ></div> -->
+</div>
+
+<div class="game" id="game-current"></div>
+
+</body>
+
+</html>
+
